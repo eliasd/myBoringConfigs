@@ -1,0 +1,61 @@
+{
+    "workbench.colorTheme": "Monokai Dimmed",
+
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["ctrl+l"],
+            "commands": ["workbench.action.focusRightGroup"]
+        },
+        {
+            "before": ["ctrl+h"],
+            "commands": ["workbench.action.focusLeftGroup"]
+        },
+        {
+            "before": ["ctrl+j"],
+            "commands": ["workbench.action.focusBelowGroup"]
+        },
+        {
+            "before": ["ctrl+k"],
+            "commands": ["workbench.action.focusAboveGroup"]
+        },
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.activityBar.visible": false
+}
